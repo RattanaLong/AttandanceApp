@@ -17,14 +17,19 @@
             android:id="@+id/txt_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sender" />
+            android:text="Name" />
 
         <TextView
-            android:id="@+id/txt_department"
+            android:id="@+id/txt_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Subject"
-            android:textSize="16sp" />
+            android:text="Email" />
+<!--        <TextView-->
+<!--            android:id="@+id/txt_attendance"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Attendance"-->
+<!--            android:textSize="16sp" />-->
 
     </LinearLayout>
 

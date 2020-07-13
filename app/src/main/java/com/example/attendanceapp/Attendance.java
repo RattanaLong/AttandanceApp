@@ -3,8 +3,7 @@ package com.example.attendanceapp;
 public class Attendance {
 
     private String name;
-    private String department;
-    private long year;
+    private String email;
 
     public String getName() {
         return name;
@@ -14,19 +13,11 @@ public class Attendance {
         this.name = name;
     }
 
-    public String getDepartment() {
-        return department;
+    public String getEmail() {
+        return email;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
-    }
-
-    public long getYear() {
-        return year;
-    }
-
-    public void setYear(long year) {
-        this.year = year;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

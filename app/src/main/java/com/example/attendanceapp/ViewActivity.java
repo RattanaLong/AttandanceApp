@@ -35,7 +35,7 @@ public class ViewActivity extends AppCompatActivity {
     }
 
     private void loadAttendance() {
-        String url = "";
+        String url = "https://my.api.mockaroo.com/test.json?key=1d03cdf0";
 
         //Create request
         StringRequest request = new StringRequest(url, new Response.Listener<String>() {
@@ -50,7 +50,7 @@ public class ViewActivity extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(ViewActivity.this, "", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ViewActivity.this, "test", Toast.LENGTH_SHORT).show();
             }
         });
         Volley.newRequestQueue(this).add(request);

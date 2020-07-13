@@ -9,7 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 public class AttendanceViewHolder extends RecyclerView.ViewHolder {
 
     private TextView txtName;
-    private TextView txtDepartment;
+    private TextView txtEmail;
+//    private TextView txtAttendance;
+
 
     public AttendanceViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -17,6 +19,8 @@ public class AttendanceViewHolder extends RecyclerView.ViewHolder {
 
     public void bind(Attendance attendance) {
         txtName.setText(attendance.getName());
-        txtDepartment.setText(attendance.getDepartment());
+        txtEmail.setText(attendance.getEmail());
+//        txtAttendance.setText(attendance.getAttendance());
+
     }
 }
